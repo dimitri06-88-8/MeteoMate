@@ -1,20 +1,20 @@
-# Участие в разработке MeteoMate
+# Contributing to MeteoMate
 
-Спасибо за интерес к проекту.
+Thank you for your interest in the project.
 
-## Перед началом
+## Before you start
 
-1. Создайте отдельную ветку для изменения.
-2. Не добавляйте API-ключи, пароли, ключи подписи, APK или локальные настройки IDE.
-3. Старайтесь сохранять существующий стиль Kotlin и Compose.
+1. Create a dedicated branch for your change.
+2. Do not commit API keys, passwords, signing keys, APK files, or local IDE settings.
+3. Follow the existing Kotlin and Compose style.
 
-## Проверка изменений
+## Validation
 
-Перед отправкой изменений выполните:
+Before submitting a change, run:
 
 ```powershell
 .\gradlew.bat testDebugUnitTest
 .\gradlew.bat lintDebug --no-parallel
 ```
 
-В описании изменения кратко укажите, что сделано и как результат был проверен.
+Briefly describe what changed and how you verified it.

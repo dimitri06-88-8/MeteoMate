@@ -1,68 +1,68 @@
 <div align="center">
-  <img src="app/src/main/ic_launcher-playstore.png" width="112" alt="Иконка MeteoMate">
+  <img src="app/src/main/ic_launcher-playstore.png" width="112" alt="MeteoMate icon">
   <h1>MeteoMate</h1>
-  <p>Погодный помощник для Android с подробным прогнозом, анализом ветра и полезными уведомлениями.</p>
+  <p>An Android weather companion with detailed forecasts, wind analysis, and helpful alerts.</p>
   <p>
-    <a href="https://www.rustore.ru/catalog/app/com.example.meteomate"><strong>Скачать в RuStore</strong></a>
+    <a href="https://www.rustore.ru/catalog/app/com.example.meteomate"><strong>Download on RuStore</strong></a>
   </p>
 </div>
 
-## О приложении
+## About
 
-MeteoMate помогает быстро понять не только температуру, но и то, как погода повлияет на день. Приложение показывает почасовой и семидневный прогноз, состояние воздуха, солнечные и геомагнитные показатели, а отдельный раздел подробно разбирает ветер.
+MeteoMate helps you understand not only the temperature, but also how the weather may affect your day. It provides hourly and seven-day forecasts, air quality, solar and geomagnetic conditions, plus a dedicated section with detailed wind data.
 
-## Возможности
+## Features
 
-- текущая погода, ощущаемая температура и прогноз на 48 часов;
-- семидневный прогноз и рекорды выбранного города;
-- скорость, направление и порывы ветра, роза ветров и сравнение погодных моделей;
-- модели ECMWF, GFS, ICON, NAM, HRRR, WRF, AROME и другие;
-- качество воздуха, УФ-индекс и таймер защиты от солнца;
-- восход, закат, золотой час и лунный календарь;
-- текущий индекс Kp и прогноз геомагнитной активности;
-- погодные предупреждения, тихие часы и уведомления о сильном ветре;
-- виджет с температурой, осадками и ветром;
-- избранные города, геолокация и локальный кэш прогноза.
+- current conditions, feels-like temperature, and a 48-hour forecast;
+- seven-day forecast and forecast records for the selected city;
+- wind speed, direction, gusts, wind rose, and weather model comparison;
+- ECMWF, GFS, ICON, NAM, HRRR, WRF, AROME, and other models;
+- air quality, UV index, and a sun-protection timer;
+- sunrise, sunset, golden hour, and a lunar calendar;
+- current Kp index and geomagnetic activity forecast;
+- weather alerts, quiet hours, and strong-wind notifications;
+- home-screen widget with temperature, precipitation, and wind;
+- favorite cities, geolocation, and offline forecast caching.
 
-## Скриншоты
+## Screenshots
 
 <p align="center">
-  <img src="rustore_screenshots_phone_1080x1920/MeteoMate_RuStore_01.jpg" width="30%" alt="Главный экран MeteoMate">
-  <img src="rustore_screenshots_phone_1080x1920/MeteoMate_RuStore_05.jpg" width="30%" alt="Данные о ветре и солнечной дуге">
-  <img src="rustore_screenshots_phone_1080x1920/MeteoMate_RuStore_08.jpg" width="30%" alt="Роза ветров и оповещения">
+  <img src="rustore_screenshots_phone_1080x1920/MeteoMate_RuStore_01.jpg" width="30%" alt="MeteoMate home screen">
+  <img src="rustore_screenshots_phone_1080x1920/MeteoMate_RuStore_05.jpg" width="30%" alt="Wind data and solar arc">
+  <img src="rustore_screenshots_phone_1080x1920/MeteoMate_RuStore_08.jpg" width="30%" alt="Wind rose and alerts">
 </p>
 
-## Установка
+## Installation
 
-Готовую версию приложения можно [скачать в RuStore](https://www.rustore.ru/catalog/app/com.example.meteomate).
+Download the ready-to-use app from [RuStore](https://www.rustore.ru/catalog/app/com.example.meteomate).
 
-Для сборки из исходного кода понадобятся Android Studio, JDK 17 и Android SDK 35.
+Building from source requires Android Studio, JDK 17, and Android SDK 35.
 
-1. Клонируйте репозиторий.
-2. Скопируйте `secrets.properties.example` в `secrets.properties`.
-3. Укажите свой API-ключ OpenWeather в `WEATHER_API_KEY`.
-4. Откройте проект в Android Studio или выполните:
+1. Clone the repository.
+2. Copy `secrets.properties.example` to `secrets.properties`.
+3. Add your OpenWeather API key as `WEATHER_API_KEY`.
+4. Open the project in Android Studio or run:
 
 ```powershell
 .\gradlew.bat assembleDebug
 ```
 
-Debug APK появится в `app/build/outputs/apk/debug/`.
+The debug APK will be generated in `app/build/outputs/apk/debug/`.
 
-## Технологии
+## Tech stack
 
-- Kotlin и Jetpack Compose;
+- Kotlin and Jetpack Compose;
 - Material 3;
 - Hilt;
-- Retrofit и Gson;
-- Room и DataStore;
+- Retrofit and Gson;
+- Room and DataStore;
 - WorkManager;
-- OpenWeather, Open-Meteo и NOAA SWPC.
+- OpenWeather, Open-Meteo, and NOAA SWPC.
 
-## Безопасность
+## Security
 
-Не добавляйте в Git `secrets.properties`, ключи подписи, пароли или готовые APK. Эти файлы уже исключены через `.gitignore`.
+Never commit `secrets.properties`, signing keys, passwords, or built APK files. These files are already excluded by `.gitignore`.
 
-## Версия
+## Version
 
-Текущая версия проекта — **1.6.1**. Минимальная версия Android — **7.0 (API 24)**.
+The current project version is **1.6.1**. The minimum supported Android version is **7.0 (API 24)**.
