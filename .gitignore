@@ -1,0 +1,24 @@
+*.iml
+.gradle/
+.kotlin/
+.idea/
+local.properties
+secrets.properties
+
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+*.apk
+*.aab
+*.zip
+*.keystore
+*.jks
+
+# Локальные материалы публикации в магазине. Актуальные скриншоты для README
+# находятся в rustore_screenshots_phone_1080x1920/ и остаются в репозитории.
+/RuStore/
+
+.DS_Store
+Thumbs.db

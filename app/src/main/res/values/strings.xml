@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MeteoMate</string>
+
+    <!-- Общее -->
+    <string name="search_city">Поиск города</string>
+    <string name="loading">Загрузка…</string>
+    <string name="error_occurred">Произошла ошибка</string>
+    <string name="retry">Повторить</string>
+    <string name="no_results">Ничего не найдено</string>
+    <string name="search_hint">Введите название города</string>
+    <string name="settings">Настройки</string>
+    <string name="back">Назад</string>
+
+    <!-- Погода -->
+    <string name="feels_like">Ощущается как</string>
+    <string name="humidity">Влажность</string>
+    <string name="wind_speed">Ветер</string>
+    <string name="pressure">Давление</string>
+    <string name="today">Сегодня</string>
+    <string name="forecast">Прогноз на 7 дней</string>
+    <string name="hourly_forecast_48h">Почасовой прогноз · 48 часов</string>
+    <string name="fallback_forecast_3h">Резервный прогноз · шаг 3 часа</string>
+    <string name="now">Сейчас</string>
+    <string name="show_details">Подробнее</string>
+    <string name="hide_details">Скрыть</string>
+    <string name="daytime">День</string>
+    <string name="nighttime">Ночь</string>
+    <string name="temperature">Температура</string>
+    <string name="precipitation">Осадки</string>
+    <string name="hourly_trends">Температура, осадки и ветер</string>
+    <string name="precipitation_nowcast">Осадки в ближайшие 2 часа</string>
+    <string name="no_precipitation_short">Без осадков</string>
+    <string name="precipitation_up_to">До %1$s мм</string>
+    <string name="favorites">Избранное</string>
+    <string name="recent">Недавние</string>
+    <string name="remove_favorite">Удалить из избранного</string>
+    <string name="add_to_favorites">Добавить в избранное</string>
+    <string name="search">Поиск</string>
+    <string name="clear_search">Очистить поиск</string>
+    <string name="favorite">Избранное</string>
+    <string name="updated_at">Обновлено в %1$s</string>
+
+    <!-- Вкладки -->
+    <string name="tab_weather">Погода</string>
+    <string name="tab_wind">Ветер</string>
+    <string name="tab_observations">Наблюдения</string>
+
+    <!-- Ветер -->
+    <string name="weather_model">МОДЕЛЬ ПОГОДЫ</string>
+    <string name="wind_speed_gusts">СКОРОСТЬ И ПОРЫВЫ ВЕТРА</string>
+    <string name="wind_rose">РОЗА ВЕТРОВ</string>
+    <string name="wind_barbs">ШТИЛЕВЫЕ ЗНАКИ</string>
+    <string name="model_comparison">СРАВНЕНИЕ МОДЕЛЕЙ</string>
+    <string name="wind_alerts">ОПОВЕЩЕНИЯ О ВЕТРЕ</string>
+    <string name="hourly_wind_forecast">ПОЧАСОВОЙ ПРОГНОЗ ВЕТРА</string>
+
+    <string name="wind_direction_desc">Частотное распределение направления ветра для этой точки</string>
+    <string name="wind_barbs_desc">Метеорологические знаки ветра на карте</string>
+    <string name="compare_models_desc">Сравнение скорости и порывов ветра по моделям</string>
+    <string name="wind_alerts_desc">Уведомления при превышении заданного порога ветра</string>
+    <string name="hourly_wind_desc">Скорость, порывы и направление ветра на ближайшие 24 часа</string>
+    <string name="no_forecast_data">Нет данных прогноза</string>
+    <string name="loading_model_data">Загрузка данных моделей…</string>
+
+    <string name="speed">Скорость</string>
+    <string name="gusts_label">Порывы</string>
+    <string name="m_per_s">м/с</string>
+    <string name="gust_suffix">порыв</string>
+    <string name="knots_calm">Штиль</string>
+    <string name="knots_5">5 узлов</string>
+    <string name="knots_10">10 узлов</string>
+    <string name="knots_50">50 узлов</string>
+    <string name="barbs_explanation">Каждый штиль = 10 узлов, половинный = 5 узлов, треугольник = 50 узлов</string>
+
+    <string name="tap_to_compare">Нажмите для выбора моделей для сравнения →</string>
+    <string name="alert_at">Оповещение при %1$s</string>
+    <string name="notifications_permission">Для уведомлений требуется разрешение системы</string>
+
+    <string name="pro_badge">PRO</string>
+    <string name="free_badge">FREE</string>
+    <string name="soon_badge">Скоро</string>
+
+    <string name="loading_weather">Загрузка данных о погоде…</string>
+
+    <!-- Настройки -->
+    <string name="temperature_unit">Единица температуры</string>
+    <string name="pressure_unit">Единица давления</string>
+    <string name="notification_settings_title">Уведомления</string>
+    <string name="notification_settings_description">Фоновая проверка запускается примерно каждый час для текущего города и по очереди для избранных. Android может немного задержать доставку.</string>
+    <string name="morning_summary">Утренняя сводка</string>
+    <string name="morning_summary_description">Краткий прогноз для последнего открытого города</string>
+    <string name="summary_time">Время сводки</string>
+    <string name="golden_hour_notifications">Золотой час</string>
+    <string name="golden_hour_notifications_description">Напоминать примерно за 30 минут до восхода и заката последнего открытого города</string>
+    <string name="weather_alert_settings_title">Погодные предупреждения</string>
+    <string name="alert_strong_wind">Сильный ветер</string>
+    <string name="alert_strong_wind_description">Скорость или порывы от 15 м/с</string>
+    <string name="alert_rain">Сильная вероятность дождя</string>
+    <string name="alert_thunderstorm">Гроза</string>
+    <string name="alert_snow">Снег</string>
+    <string name="alert_heat">Жара</string>
+    <string name="alert_heat_description">Температура от +35 °C</string>
+    <string name="alert_frost">Сильный мороз</string>
+    <string name="alert_frost_description">Температура до −20 °C</string>
+    <string name="alert_ice">Ледяной дождь</string>
+    <string name="alert_ice_description">Предупреждение о риске гололёда только при данных о ледяном дожде</string>
+    <string name="alert_rapid_temperature">Резкая смена температуры</string>
+    <string name="alert_rapid_temperature_description">Изменение на 5 °C и более за несколько часов</string>
+    <string name="alert_rapid_pressure">Резкое падение давления</string>
+    <string name="alert_rapid_pressure_description">Падение на 5 гПа и более за несколько часов</string>
+    <string name="notification_forecast_limitations">Предупреждения используют обычный прогноз на ближайшие 12 часов. Поминутный прогноз осадков пока не поддерживается.</string>
+    <string name="quiet_hours_title">Режим «Не беспокоить»</string>
+    <string name="quiet_hours">Тихие часы</string>
+    <string name="quiet_hours_description">В этот период приложение не отправляет погодные уведомления</string>
+    <string name="quiet_hours_start">Начало</string>
+    <string name="quiet_hours_end">Окончание</string>
+
+    <!-- Каналы и тексты уведомлений -->
+    <string name="notification_channel_alerts">Погодные предупреждения</string>
+    <string name="notification_channel_alerts_description">Важные изменения погоды для выбранного города</string>
+    <string name="notification_channel_summary">Утренняя сводка</string>
+    <string name="notification_channel_summary_description">Ежедневный краткий прогноз погоды</string>
+    <string name="notification_channel_solar">Солнце и золотой час</string>
+    <string name="notification_channel_solar_description">Напоминания перед восходом и закатом</string>
+    <string name="notification_channel_uv_timer">УФ-таймер</string>
+    <string name="notification_channel_uv_timer_description">Напоминание проверить защиту от солнца</string>
+    <string name="notification_morning_summary_title">Доброе утро · %1$s</string>
+    <string name="notification_weather_alert_title">Погодное предупреждение · %1$s</string>
+    <string name="notification_alert_thunderstorm">В ближайшие часы ожидается гроза</string>
+    <string name="notification_alert_ice">Возможен ледяной дождь и гололёд</string>
+    <string name="notification_alert_snow">В ближайшие часы ожидается снег</string>
+    <string name="notification_alert_rain">В ближайшие часы вероятен дождь</string>
+    <string name="notification_alert_wind">Скорость или порывы ветра могут достигнуть %1$d м/с</string>
+    <string name="notification_alert_heat">Температура может достигнуть +%1$d °C</string>
+    <string name="notification_alert_frost">Температура может опуститься до %1$d °C</string>
+    <string name="notification_alert_rapid_temperature">Температура изменилась примерно на %1$d °C</string>
+    <string name="notification_alert_rapid_pressure">Давление снизилось примерно на %1$d гПа</string>
+    <string name="notification_golden_hour_morning_title">Скоро утренний золотой час</string>
+    <string name="notification_golden_hour_morning_body">%1$s: восход около %2$s. Мягкий утренний свет продлится примерно час.</string>
+    <string name="notification_golden_hour_evening_title">Скоро закат</string>
+    <string name="notification_golden_hour_evening_body">%1$s: закат около %2$s. Сейчас начинается вечерний золотой час.</string>
+    <string name="notification_uv_timer_title">УФ-таймер завершён</string>
+    <string name="notification_uv_timer_body">Проверьте защиту от солнца, уйдите в тень или сделайте перерыв.</string>
+
+    <!-- Что изменилось -->
+    <string name="whats_new_title">Что изменилось?</string>
+    <string name="whats_new_intro">Главные новинки этой версии</string>
+    <string name="whats_new_wind_models_title">Все модели ветра доступны</string>
+    <string name="whats_new_wind_models_description">Можно свободно выбирать ECMWF, GFS, ICON, NAM, HRRR, WRF, AROME и другие модели для прогноза ветра.</string>
+    <string name="whats_new_notifications_title">Уведомления вовремя</string>
+    <string name="whats_new_notifications_description">Погодные предупреждения теперь проверяются в фоне и не зависят от открытия приложения или обновления виджета.</string>
+    <string name="whats_new_continue">Продолжить</string>
+    <string name="whats_new_settings_subtitle">Новинки версии %1$s</string>
+    <string name="whats_new_widget_title">Виджет погоды</string>
+    <string name="whats_new_widget_description">Температура, осадки и ветер доступны на главном экране устройства. Данные можно обновить кнопкой на виджете.</string>
+    <string name="whats_new_uv_title">УФ-таймер защиты</string>
+    <string name="whats_new_uv_description">Показывает уровень УФ-риска и запускает напоминание о необходимости проверить защиту от солнца.</string>
+    <string name="whats_new_golden_hour_title">Золотой час</string>
+    <string name="whats_new_golden_hour_description">Показывает утренний и вечерний интервалы мягкого света и может напомнить перед восходом и закатом.</string>
+    <string name="whats_new_records_title">Рекорды города</string>
+    <string name="whats_new_records_description">Показывает самый жаркий, холодный и ветреный день текущего семидневного прогноза.</string>
+    <string name="whats_new_geomagnetic_title">Геомагнитная активность</string>
+    <string name="whats_new_geomagnetic_description">Добавлены текущий индекс Kp, оценка состояния магнитного поля и прогноз магнитных бурь на ближайшие 24 часа.</string>
+
+    <!-- Виджет -->
+    <string name="weather_widget_description">Погода MeteoMate: температура, осадки и ветер</string>
+    <string name="weather_widget_refresh">Обновить погоду</string>
+    <string name="weather_widget_refresh_symbol">↻</string>
+    <string name="weather_widget_empty_value">—</string>
+    <string name="weather_widget_precipitation_value">Осадки: %1$s мм · %2$d%%</string>
+    <string name="weather_widget_precipitation_empty">Осадки: —</string>
+    <string name="weather_widget_wind_value">Ветер: %1$s м/с</string>
+    <string name="weather_widget_wind_empty">Ветер: —</string>
+    <string name="weather_widget_open_app">Откройте приложение и выберите город</string>
+    <string name="weather_widget_updating">Обновление…</string>
+    <string name="weather_widget_updated">Обновлено</string>
+    <string name="weather_widget_offline">Нет сети</string>
+    <string name="weather_widget_unavailable">Данные пока недоступны</string>
+
+    <!-- Погодные условия -->
+    <string name="clear_sky">Ясно</string>
+    <string name="mainly_clear">Преимущественно ясно</string>
+    <string name="partly_cloudy">Переменная облачность</string>
+    <string name="overcast">Пасмурно</string>
+    <string name="fog">Туман</string>
+    <string name="drizzle">Морось</string>
+    <string name="rain">Дождь</string>
+    <string name="freezing_rain">Ледяной дождь</string>
+    <string name="snowfall">Снегопад</string>
+    <string name="rain_showers">Ливень</string>
+    <string name="snow_showers">Снежный ливень</string>
+    <string name="thunderstorm">Гроза</string>
+    <string name="hail">Град</string>
+
+    <!-- Компоненты погоды -->
+    <string name="sunrise">Восход</string>
+    <string name="sunset">Закат</string>
+    <string name="visibility">Видимость</string>
+    <string name="cloud_cover">Облачность</string>
+    <string name="sun_path">Солнечная дуга</string>
+    <string name="location_permission_hint">Разрешение на местоположение отклонено. Поищите город выше для получения погоды.</string>
+    <string name="unable_to_request_permission">Не удалось запросить разрешение на местоположение</string>
+
+    <!-- Луна -->
+    <string name="lunar_calendar">🌙 Лунный календарь</string>
+    <string name="new_moon">Новолуние</string>
+    <string name="waxing_crescent">Растущая луна</string>
+    <string name="first_quarter">Первая четверть</string>
+    <string name="waxing_gibbous">Растущая полная луна</string>
+    <string name="full_moon">Полнолуние</string>
+    <string name="waning_gibbous">Убывающая полная луна</string>
+    <string name="last_quarter">Последняя четверть</string>
+    <string name="waning_crescent">Убывающая луна</string>
+
+    <!-- Ветер: шкала Бофорта -->
+    <string name="beaufort_calm">Штиль</string>
+    <string name="beaufort_light_air">Тихий ветер</string>
+    <string name="beaufort_light_breeze">Лёгкий бриз</string>
+    <string name="beaufort_gentle_breeze">Слабый бриз</string>
+    <string name="beaufort_moderate_breeze">Умеренный бриз</string>
+    <string name="beaufort_fresh_breeze">Свежий бриз</string>
+    <string name="beaufort_strong_breeze">Сильный бриз</string>
+    <string name="beaufort_near_gale">Слабый шторм</string>
+    <string name="beaufort_gale">Шторм</string>
+    <string name="beaufort_strong_gale">Сильный шторм</string>
+    <string name="beaufort_storm">Буря</string>
+    <string name="beaufort_violent_storm">Сильная буря</string>
+    <string name="beaufort_hurricane">Ураган</string>
+
+    <string name="weather_fact">Факт о погоде</string>
+
+    <!-- Модели погоды -->
+    <string name="model_ecmwf">ECMWF</string>
+    <string name="model_ecmwf_desc">9 км · Глобальная · Обновление 4 раза/день · Золотой стандарт среднесрочных прогнозов</string>
+    <string name="model_ecmwf_ens">ECMWF-ENS</string>
+    <string name="model_ecmwf_ens_desc">18 км · Ансамбль из 51 члена · Диапазоны вероятностей и доверительные интервалы</string>
+    <string name="model_gfs27">GFS 27 км</string>
+    <string name="model_gfs27_desc">27 км · Глобальная · Обновление каждые 6ч · Бесплатная базовая модель</string>
+    <string name="model_gfs_plus">GFS+</string>
+    <string name="model_gfs_plus_desc">3 км · США · Почасовые обновления · Конвективные детали ветра</string>
+    <string name="model_icon13">ICON 13 км</string>
+    <string name="model_icon13_desc">13 км · Глобальная · DWD (Германия) · Хорошее покрытие Европы</string>
+    <string name="model_icon7">ICON 7 км</string>
+    <string name="model_icon7_desc">7 км · Европа · DWD (Германия) · Детальный ветер Европы</string>
+    <string name="model_nam">NAM 12 км</string>
+    <string name="model_nam_desc">12 км · Северная Америка · Обновление каждые 6ч · Региональные детали</string>
+    <string name="model_hrrr">HRRR</string>
+    <string name="model_hrrr_desc">3 км · США · Почасовые обновления · Лучшая модель для порывов</string>
+    <string name="model_wrf8">WRF 8 км</string>
+    <string name="model_wrf8_desc">8 км · Настраиваемая область · Исследовательская модель</string>
+    <string name="model_open_skiron">Open Skiron</string>
+    <string name="model_open_skiron_desc">4 км · Средиземноморье/Европа · Метеослужба Skiron</string>
+    <string name="model_open_wrf">Open WRF</string>
+    <string name="model_open_wrf_desc">Настраиваемая · Open-source вариант WRF · Свои области</string>
+    <string name="model_arome">AROME</string>
+    <string name="model_arome_desc">1.3 км · Франция и окрестности · Météo-France · Сверхвысокое разрешение</string>
+    <string name="model_mfwam">MFWAM</string>
+    <string name="model_mfwam_desc">25 км · Глобальный океан · Волновая модель ECMWF · Связь ветра и волн</string>
+</resources>
